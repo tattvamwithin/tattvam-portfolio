@@ -11,28 +11,20 @@ const projects = [
     gradient: "linear-gradient(135deg, #0A84FF, #001F3F)"
   },
   {
-    title: "Headless Shopify Platform",
-    category: "Enterprise E-Commerce",
-    description: "Replatformed a major global lifestyle brand to a completely custom, decoupled Headless Shopify architecture. Increased site speed by 3x and boosted checkout conversions by leveraging edge-rendered Next.js and the Storefront API.",
-    tech: ["Shopify Plus", "Liquid", "Storefront API", "Next.js"],
-    link: "#",
-    gradient: "linear-gradient(135deg, #008060, #003326)"
-  },
-  {
     title: "AI Generative Engine",
     category: "Machine Learning",
     description: "Developed a comprehensive abstraction layer and UI pipeline for interacting with complex LLMs. The platform allows enterprise clients to securely construct, test, and deploy custom prompt chains directly into their existing cloud infrastructure.",
-    tech: ["React Node UI", "Python", "Docker", "AWS"],
+    tech: ["Python", "PyTorch", "React", "AWS"],
     link: "#",
-    gradient: "linear-gradient(135deg, #BF5AF2, #3B0059)"
+    gradient: "linear-gradient(135deg, #BF5AF2, #1A0B2E)"
   },
   {
-    title: "Enterprise E-Commerce",
-    category: "High-Traffic Retail",
-    description: "Led the frontend replatforming of a Fortune 500 retailer to a headless Next.js architecture, radically improving Core Web Vitals and driving a 30% increase in mobile conversion rates through heavily optimized SSR and edge caching.",
-    tech: ["Next.js", "TypeScript", "GraphQL", "Vercel"],
+    title: "Next-Gen SaaS Dashboard",
+    category: "Product Design",
+    description: "A complete overhaul of a legacy enterprise analytics suite. Focused on extreme performance, real-time data visualization using D3.js, and a bespoke design system that reduced user task completion time by 40%.",
+    tech: ["TypeScript", "D3.js", "Tailwind", "tRPC"],
     link: "#",
-    gradient: "linear-gradient(135deg, #FF375F, #4A000F)"
+    gradient: "linear-gradient(135deg, #FF375F, #2E0B14)"
   }
 ];
 

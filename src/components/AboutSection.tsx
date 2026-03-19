@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import ScrollReveal from "./ScrollReveal";
 
-const skills = ["Next.js", "React", "TypeScript", "Node.js", "Python", "Cloud Architecture", "Shopify Plus"];
+const skills = ["Next.js", "React", "TypeScript", "Node.js", "Python", "Cloud Architecture"];
 
 export default function AboutSection() {
   const [time, setTime] = useState("");

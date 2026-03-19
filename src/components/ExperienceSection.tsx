@@ -4,15 +4,15 @@ import ScrollReveal from "./ScrollReveal";
 const experiences = [
   {
     year: "2023 - Present",
-    role: "Full Stack Engineer",
+    role: "Senior Full Stack Engineer",
     company: "TechNexus Inc.",
     desc: "Spearheaded the migration of a legacy monolithic platform into a modular Next.js architecture. Improved load times by 60%."
   },
   {
     year: "2020 - 2023",
-    role: "E-Commerce Technical Lead",
-    company: "Shopify Plus Partner Agency",
-    desc: "Engineered bespoke, high-converting Shopify themes and headless integrations. Architected completely decoupled Next.js storefronts utilizing the Storefront API."
+    role: "Frontend Developer",
+    company: "Creative Digital Studio",
+    desc: "Built award-winning, heavily animated campaign websites for Fortune 500 clients using React and precise CSS."
   },
   {
     year: "2018 - 2020",
