@@ -209,21 +209,6 @@ const services = [
         icon: "💻"
     },
     {
-        title: "Custom CRM/ERP",
-        description: "Building bespoke enterprise resource planning and customer relationship systems to centralize and streamline operations.",
-        icon: "🏢"
-    },
-    {
-        title: "3D Product Rendering",
-        description: "Specialized expertise in Blender for high-end jewelry and product rendering, delivering photorealistic, premium visuals.",
-        icon: "💎"
-    },
-    {
-        title: "Dynamic 3D Animation",
-        description: "Creating captivating motion graphics and WebGL-driven 3D animations that dramatically elevate digital brand storytelling.",
-        icon: "🎥"
-    },
-    {
         title: "Intelligent Automation",
         description: "Engineering robust workflow automations and data pipelines to eliminate manual tasks and accelerate productivity.",
         icon: "⚡"
@@ -232,6 +217,16 @@ const services = [
         title: "Modern Serverless",
         description: "Deploying ultra-fast, globally distributed edge applications leveraging Vercel infrastructure and Neon Serverless Postgres.",
         icon: "☁️"
+    },
+    {
+        title: "Custom CRM/ERP",
+        description: "Building bespoke enterprise resource planning and customer relationship systems to centralize and streamline operations.",
+        icon: "🏢"
+    },
+    {
+        title: "3D Product Rendering",
+        description: "Specialized expertise in Blender for high-end jewelry and product rendering, delivering photorealistic, premium visuals.",
+        icon: "💎"
     }
 ];
 function ServicesSection() {
@@ -250,7 +245,7 @@ function ServicesSection() {
                                 children: "Capabilities"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ServicesSection.tsx",
-                                lineNumber: 47,
+                                lineNumber: 42,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -262,13 +257,13 @@ function ServicesSection() {
                                         children: "Expertise"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/ServicesSection.tsx",
-                                        lineNumber: 49,
+                                        lineNumber: 44,
                                         columnNumber: 18
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/ServicesSection.tsx",
-                                lineNumber: 48,
+                                lineNumber: 43,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -276,18 +271,18 @@ function ServicesSection() {
                                 children: "I deliver end-to-end solutions, bridging the gap between rigorous engineering and visionary design. Here is what I bring to the table."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ServicesSection.tsx",
-                                lineNumber: 51,
+                                lineNumber: 46,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/ServicesSection.tsx",
-                        lineNumber: 46,
+                        lineNumber: 41,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/ServicesSection.tsx",
-                    lineNumber: 45,
+                    lineNumber: 40,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -304,7 +299,7 @@ function ServicesSection() {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/ServicesSection.tsx",
-                                        lineNumber: 63,
+                                        lineNumber: 58,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -312,7 +307,7 @@ function ServicesSection() {
                                         children: service.icon
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/ServicesSection.tsx",
-                                        lineNumber: 67,
+                                        lineNumber: 62,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -320,7 +315,7 @@ function ServicesSection() {
                                         children: service.title
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/ServicesSection.tsx",
-                                        lineNumber: 68,
+                                        lineNumber: 63,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -328,34 +323,34 @@ function ServicesSection() {
                                         children: service.description
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/ServicesSection.tsx",
-                                        lineNumber: 69,
+                                        lineNumber: 64,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/ServicesSection.tsx",
-                                lineNumber: 61,
+                                lineNumber: 56,
                                 columnNumber: 15
                             }, this)
                         }, index, false, {
                             fileName: "[project]/src/components/ServicesSection.tsx",
-                            lineNumber: 60,
+                            lineNumber: 55,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/ServicesSection.tsx",
-                    lineNumber: 58,
+                    lineNumber: 53,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ServicesSection.tsx",
-            lineNumber: 42,
+            lineNumber: 37,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/ServicesSection.tsx",
-        lineNumber: 41,
+        lineNumber: 36,
         columnNumber: 5
     }, this);
 }

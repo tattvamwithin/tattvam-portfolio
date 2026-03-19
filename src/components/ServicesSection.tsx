@@ -10,21 +10,6 @@ const services = [
     icon: "💻"
   },
   {
-    title: "Custom CRM/ERP",
-    description: "Building bespoke enterprise resource planning and customer relationship systems to centralize and streamline operations.",
-    icon: "🏢"
-  },
-  {
-    title: "3D Product Rendering",
-    description: "Specialized expertise in Blender for high-end jewelry and product rendering, delivering photorealistic, premium visuals.",
-    icon: "💎"
-  },
-  {
-    title: "Dynamic 3D Animation",
-    description: "Creating captivating motion graphics and WebGL-driven 3D animations that dramatically elevate digital brand storytelling.",
-    icon: "🎥"
-  },
-  {
     title: "Intelligent Automation",
     description: "Engineering robust workflow automations and data pipelines to eliminate manual tasks and accelerate productivity.",
     icon: "⚡"
@@ -33,6 +18,16 @@ const services = [
     title: "Modern Serverless",
     description: "Deploying ultra-fast, globally distributed edge applications leveraging Vercel infrastructure and Neon Serverless Postgres.",
     icon: "☁️"
+  },
+  {
+    title: "Custom CRM/ERP",
+    description: "Building bespoke enterprise resource planning and customer relationship systems to centralize and streamline operations.",
+    icon: "🏢"
+  },
+  {
+    title: "3D Product Rendering",
+    description: "Specialized expertise in Blender for high-end jewelry and product rendering, delivering photorealistic, premium visuals.",
+    icon: "💎"
   }
 ];
 
